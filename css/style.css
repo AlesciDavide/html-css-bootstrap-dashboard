@@ -60,6 +60,10 @@
     font-size: .8rem;
 }
 
+.my_column_boolean{
+    display: none;
+}
+
 
 .my_grow_true{
     flex-grow: 1;
@@ -72,6 +76,16 @@
         display: inline;
     }
     .my_img_booleanmobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .my_column_boolean{
+        display: flex;
+    }
+
+    .my_column_boolean_none{
         display: none;
     }
 }

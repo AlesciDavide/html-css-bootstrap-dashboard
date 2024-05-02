@@ -1,15 +1,59 @@
 
 
-
-.my_sidebar{
-    width: 120px;
-    height: calc(100vh - 60px);
-    background-color: rgb(158, 158, 255);
+.body{
+    font-family: "Roboto", sans-serif;
 }
 
 
-.asd{
+.my_sidebar{
+    width: 60px;
+    height: calc(100vh - 60px);
+    color: white;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-color: rgb(5, 30, 52);
+}
+
+
+.my_header_boolean{
     background-color: aqua;
     width: 100%;
 }
 
+.my_plane_boolean{
+    background-color: #165bba;
+
+}
+
+.my_img_booleanbig{
+    display: none;
+}
+
+.my_btn_nostyle{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.my_background_color{
+    background-color: #1b72e8;
+    color: white;
+}
+
+
+
+@media screen and (min-width: 992px){
+    .my_sidebar{
+        width: 120px;
+    }
+    .my_img_booleanbig{
+        display: inline;
+    }
+    .my_img_booleanmobile{
+        display: none;
+    }
+}

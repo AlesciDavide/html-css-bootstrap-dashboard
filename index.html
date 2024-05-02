@@ -12,17 +12,54 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>bootstrap dashboard</title>
 </head>
 
 <body>
     <section>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex flex-row">
+                <a class="navbar-brand navbar-expand-lg" href="#">
+                    <img class="my_img_booleanbig" src="./img/logo.svg" alt="logo boolean">
+                    <img class="my_img_booleanmobile" src="./img/mobile-logo.png" alt="logo boolean" width="40px">
                 </a>
+
+                <form class="d-flex me-auto " role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-list-ul"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-toggle my_btn_nostyle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        icon
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </section>
@@ -31,22 +68,34 @@
 
         <aside>
             <section class="d-flex p-2 justify-content-between my_sidebar flex-column">
-                <div>
-                    <p>home</p>
-                    <p>stats</p>
-                    <p>signals</p>
+                <!-- sidebar desktop -->
+                <div class="my_img_booleanbig text-center py-2">
+                    <p><i class="fa-solid fa-house pe-2"></i>Home</p>
+                    <p><i class="fa-solid fa-chart-simple pe-2"></i>Stats</p>
+                    <p><i class="fa-solid fa-signal pe-2"></i>Signals</p>
                 </div>
-                <div>
-                    <p>admin</p>
+                <div class="my_img_booleanbig text-center">
+                    <p><i class="fa-solid fa-gear pe-2"></i>Admin</p>
+                </div>
+                <!-- sidebar mobile -->
+                <div class="my_img_booleanmobile text-center py-2">
+                    <p><i class="fa-solid fa-house"></i></p>
+                    <p><i class="fa-solid fa-chart-simple"></i></p>
+                    <p><i class="fa-solid fa-signal"></i></p>
+                </div>
+                <div class="my_img_booleanmobile text-center">
+                    <p><i class="fa-solid fa-gear"></i></p>
                 </div>
             </section>
         </aside>
 
-        <section class="asd">
+        <section class="my_header_boolean">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-between">
-                        <div class="col-6">asd</div>
+                    <div class="col-12 d-flex justify-content-between my_background_color">
+                        <div class="col-6">Boolean <span class="my_plane_boolean rounded-pill px-2">Piano base</span>
+                            
+                        </div>
                         <div class="col-4">asd</div>
                         <div class="col-2">asd</div>
                     </div>
@@ -55,12 +104,16 @@
                             <div class="col-12 col-lg-8">
                                 <div class="row">
                                     <div class="col-12">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iste, vero debitis unde, eum rerum ut incidunt molestiae quibusdam repellat reiciendis ea voluptatem repudiandae esse quos quia! Itaque, consequatur ex.
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iste, vero
+                                            debitis unde, eum rerum ut incidunt molestiae quibusdam repellat reiciendis
+                                            ea voluptatem repudiandae esse quos quia! Itaque, consequatur ex.
                                             primo quadrante
                                         </p>
                                     </div>
                                     <div class="col-12">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, cumque cum cupiditate error officiis blanditiis nobis harum sequi est aliquam, aperiam sed, quisquam voluptate. Vel natus non repudiandae consectetur cupiditate?
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, cumque cum
+                                            cupiditate error officiis blanditiis nobis harum sequi est aliquam, aperiam
+                                            sed, quisquam voluptate. Vel natus non repudiandae consectetur cupiditate?
                                             secondo quadrante
                                         </p>
                                     </div>
@@ -68,12 +121,16 @@
                             </div>
                             <div class="col-12 col-lg-4">
                                 <div class="col-12">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officiis, nemo blanditiis sed iste doloremque, itaque obcaecati consequatur harum provident commodi eum quo optio, ea ut qui ab hic porro?
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officiis,
+                                        nemo blanditiis sed iste doloremque, itaque obcaecati consequatur harum
+                                        provident commodi eum quo optio, ea ut qui ab hic porro?
                                         primo quadrante destra
                                     </p>
                                 </div>
                                 <div class="col-12">
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est autem natus perspiciatis! Hic, expedita quibusdam maxime possimus quidem, blanditiis, rerum laborum nobis commodi enim delectus modi excepturi voluptatibus magni nam.
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est autem natus
+                                        perspiciatis! Hic, expedita quibusdam maxime possimus quidem, blanditiis, rerum
+                                        laborum nobis commodi enim delectus modi excepturi voluptatibus magni nam.
                                         secondo quadrante destra
                                     </p>
                                 </div>

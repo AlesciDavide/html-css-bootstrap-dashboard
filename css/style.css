@@ -52,6 +52,14 @@
     background-color: #e5e5e5;
 }
 
+.my_bell_color{
+    color: #ff8f00;
+}
+
+.my_text_size{
+    font-size: .8rem;
+}
+
 
 .my_grow_true{
     flex-grow: 1;

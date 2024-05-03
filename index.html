@@ -28,7 +28,6 @@
                     <img class="my_img_booleanbig" src="./img/logo.svg" alt="logo boolean">
                     <img class="my_img_booleanmobile" src="./img/mobile-logo.png" alt="logo boolean" width="40px">
                 </a>
-
                 <form class="d-flex me-auto my_grow_true" role="search">
                     <input class="form-control my_bg_search" type="search"
                         placeholder="&#xf002;  Prova a cercare: Lezioni di Laravel" aria-label="Search"
@@ -46,10 +45,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
-
                     </ul>
-
-
                 </div>
                 <div class="dropdown">
                     <button class="dropdown my_btn_nostyle ps-1" type="button" data-bs-toggle="dropdown"
@@ -65,15 +61,13 @@
             </div>
         </nav>
     </section>
-
     <main class="d-flex">
-
         <aside>
             <section class="d-flex p-2 justify-content-between my_sidebar flex-column">
                 <!-- sidebar desktop -->
                 <div class="my_img_booleanbig text-center py-2">
                     <p class="my_hover_aside p-2"><i class="fa-solid fa-house pe-2"></i>Home</p>
-                    <p class="my_hover_aside_stats p-2"><i class="fa-solid fa-chart-simple pe-2"></i>Stats</p>
+                    <p class="my_hover_aside p-2"><i class="fa-solid fa-chart-simple pe-2"></i>Stats</p>
                     <p class="my_hover_aside p-2"><i class="fa-solid fa-signal pe-2"></i>Signals</p>
                 </div>
                 <div class="my_img_booleanbig text-center">
@@ -81,16 +75,15 @@
                 </div>
                 <!-- sidebar mobile -->
                 <div class="my_img_booleanmobile text-center py-2">
-                    <p><i class="fa-solid fa-house"></i></p>
-                    <p><i class="fa-solid fa-chart-simple"></i></p>
-                    <p><i class="fa-solid fa-signal"></i></p>
+                    <p class="my_hover_aside"><i class="fa-solid fa-house"></i></p>
+                    <p class="my_hover_aside"><i class="fa-solid fa-chart-simple"></i></p>
+                    <p class="my_hover_aside"><i class="fa-solid fa-signal"></i></p>
                 </div>
                 <div class="my_img_booleanmobile text-center">
-                    <p><i class="fa-solid fa-gear"></i></p>
+                    <p class="my_hover_aside"><i class="fa-solid fa-gear"></i></p>
                 </div>
             </section>
         </aside>
-
         <section class="my_header_boolean">
             <div class="container-fluid">
                 <div class="row">
@@ -98,13 +91,14 @@
                         <div class="col-12 col-sm-3 col-lg-2 my_column_boolean">
                             <p class="pt-4">Nuovo Studente
                                 <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                        class="fa-solid fa-plus"></i></button>
                                 <!-- offcanvas -->
-                                <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight"
+                            <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight"
                                 aria-labelledby="offcanvasRightLabel">
                                 <h1 class="p-2">Inserisci un nuovo studente</h1>
                                 <button type="button" class="btn-close mt-1 my_close_button" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
+                                    aria-label="Close"></button>
                                 <div class="offcanvas-header">
                                     <form class="offcanvas-title row g-3" id="offcanvasRightLabel">
                                         <div class="col-md-6">
@@ -119,7 +113,7 @@
                                             <label for="inputemaill4" class="form-label">Email</label>
                                             <div class="input-group">
                                                 <div class="input-group-text bg-light-subtle">@</div>
-                                            <input type="email" class="form-control" id="inputemail4">
+                                                <input type="email" class="form-control" id="inputemail4">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -130,7 +124,7 @@
                                             <label for="inputemaill4" class="form-label">Email</label>
                                             <div class="input-group">
                                                 <div class="input-group-text bg-light-subtle">@</div>
-                                            <input type="email" class="form-control" id="inputemail4">
+                                                <input type="email" class="form-control" id="inputemail4">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -160,29 +154,29 @@
                                             <input type="text" class="form-control" id="inputCap4">
                                         </div>
                                         <div class="col-12">
-                                        <div class="input-group">
-                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="inputGroupFile04"
+                                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                                             </div>
                                         </div>
-                                            <div class="col-12">
-                                                <div class="form-check">
+                                        <div class="col-12">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Seleziona per proseguire
                                                 </label>
-                                                </div>
                                             </div>
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-primary">Salva</button>
-                                                <button type="submit" class="btn btn-warning">Svuota</button>
-                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </form>
-                                    
+
                                 </div>
                             </div>
-                                </p>
-                            </div>
-
+                            </p>
+                        </div>
                         <div class="col-12 col-sm-5 col-lg-7 col-xl-6">
                             <div class="d-flex pt-sm-3">
                                 <p class="fs-2 mb-0">Boolean</p>
@@ -222,14 +216,14 @@
                         </div>
                         <div
                             class="col-12 col-sm-3 col-lg-2 col-xl-3 my_column_boolean_none justify-content-center align-self-center">
-                            <p>Nuovo Studente <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvasRight_full" aria-controls="offcanvasRight">+</button>
-
+                            <p>Nuovo Studente <button class="btn btn-outline-light" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight_full"
+                                    aria-controls="offcanvasRight">+</button>
                             <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight_full"
                                 aria-labelledby="offcanvasRightLabel">
                                 <h2 class="p-2">Inserisci un nuovo studente</h2>
                                 <button type="button" class="btn-close mt-1 my_close_button" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
+                                    aria-label="Close"></button>
                                 <div class="offcanvas-header">
                                     <form class="offcanvas-title row g-3" id="offcanvasRightLabel">
                                         <div class="col-md-6">
@@ -244,7 +238,7 @@
                                             <label for="inputemaill4" class="form-label">Email</label>
                                             <div class="input-group">
                                                 <div class="input-group-text bg-light-subtle">@</div>
-                                            <input type="email" class="form-control" id="inputemail4">
+                                                <input type="email" class="form-control" id="inputemail4">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -255,7 +249,7 @@
                                             <label for="inputemaill4" class="form-label">Email</label>
                                             <div class="input-group">
                                                 <div class="input-group-text bg-light-subtle">@</div>
-                                            <input type="email" class="form-control" id="inputemail4">
+                                                <input type="email" class="form-control" id="inputemail4">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -285,24 +279,25 @@
                                             <input type="text" class="form-control" id="inputCap4">
                                         </div>
                                         <div class="col-12">
-                                        <div class="input-group">
-                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="inputGroupFile04"
+                                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                                             </div>
                                         </div>
-                                            <div class="col-12">
-                                                <div class="form-check">
+                                        <div class="col-12">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Seleziona per proseguire
                                                 </label>
-                                                </div>
                                             </div>
-                                            <div class="col-12">
-                                                <button type="submit" class="btn btn-primary">Salva</button>
-                                                <button type="submit" class="btn btn-warning">Svuota</button>
-                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </form>
-                                    
+
                                 </div>
                             </div>
                             </p>
@@ -318,188 +313,214 @@
                                                 <h2>Prossime classi</h2>
                                             </div>
                                             <div class="card-body border-top pt-2">
-                                        <table class="table my_border_collapse">
-                                            <thead>
-                                                <tr>
-                                                    <td class="my_widht_table_50" scope="col">Nome</td>
-                                                    <th class="my_hide_table text-center" scope="col">Data inzio</th>
-                                                    <th class="my_hide_table text-center" scope="col">ROI</th>
-                                                    <th class="text-center" scope="col">Stato</th>
-                                                    <th class="text-center" scope="col">Azioni</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 75
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        15 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_green rounded-pill my_text_size align-self-center px-2">
-                                                            Done
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 76
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        16 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_green rounded-pill my_text_size align-self-center px-2">
-                                                            Done
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 77
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        17 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_yellow rounded-pill my_text_size px-2 align-self-center">
-                                                            process
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 78
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        18 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
-                                                            done
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 79
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        19 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_plane_red rounded-pill my_text_size px-2 align-self-center">
-                                                            failed
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 80
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        20 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
-                                                            done
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 81
-                                                    </th>
-                                                    <td class="my_hide_table text-center"> 
-                                                        21 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_plane_red rounded-pill my_text_size px-2 align-self-center">
-                                                            failed
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th scope="row">
-                                                        <img class="img-fluid rounded-circle my_img_avatar" src="./img/class-avatar.jpg" alt=""> Classe 82
-                                                    </th>
-                                                    <td class="my_hide_table text-center">
-                                                        22 Feb 2021
-                                                    </td>
-                                                    <td class="my_hide_table text-center">
-                                                        20%
-                                                    </td>
-                                                    <td class="text-center d-flex justify-content-center">
-                                                        <p class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
-                                                            done
-                                                        </p>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <i class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
-                                                        <i class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    </div>
+                                                <table class="table my_border_collapse">
+                                                    <thead>
+                                                        <tr>
+                                                            <td class="my_widht_table_50" scope="col">Nome</td>
+                                                            <th class="my_hide_table text-center" scope="col">Data inzio
+                                                            </th>
+                                                            <th class="my_hide_table text-center" scope="col">ROI</th>
+                                                            <th class="text-center" scope="col">Stato</th>
+                                                            <th class="text-center" scope="col">Azioni</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 75
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                15 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_green rounded-pill my_text_size align-self-center px-2">
+                                                                    Done
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 76
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                16 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_green rounded-pill my_text_size align-self-center px-2">
+                                                                    Done
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 77
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                17 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_yellow rounded-pill my_text_size px-2 align-self-center">
+                                                                    process
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 78
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                18 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
+                                                                    done
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 79
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                19 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_plane_red rounded-pill my_text_size px-2 align-self-center">
+                                                                    failed
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 80
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                20 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
+                                                                    done
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 81
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                21 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_plane_red rounded-pill my_text_size px-2 align-self-center">
+                                                                    failed
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                <img class="img-fluid rounded-circle my_img_avatar"
+                                                                    src="./img/class-avatar.jpg" alt=""> Classe 82
+                                                            </th>
+                                                            <td class="my_hide_table text-center">
+                                                                22 Feb 2021
+                                                            </td>
+                                                            <td class="my_hide_table text-center">
+                                                                20%
+                                                            </td>
+                                                            <td class="text-center d-flex justify-content-center">
+                                                                <p
+                                                                    class="my_state_green rounded-pill my_text_size px-2 align-self-center ">
+                                                                    done
+                                                                </p>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <i
+                                                                    class="fa-solid fa-pencil border rounded my_pencil_color p-2"></i>
+                                                                <i
+                                                                    class="fa-solid fa-trash border rounded my_pencil_color p-2"></i>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-12 rounded pb-2">
                                         <div class="card">
@@ -507,45 +528,60 @@
                                                 <h2>F.A.Q.</h2>
                                             </div>
                                             <div class="card-body">
-                                        <div class="accordion " id="accordionPanelsStayOpenExample">
-                                            <div class="accordion-item border-0 border-bottom">
-                                                <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                                                    Come aggiungere un nuovo studente?
-                                                </button>
-                                                </h2>
-                                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <strong>Clicca sul + in alto nella sezione blu.</strong> 
-                                                </div>
+                                                <div class="accordion " id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item border-0 border-bottom">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapseOne"
+                                                                aria-expanded="false"
+                                                                aria-controls="panelsStayOpen-collapseOne">
+                                                                Come aggiungere un nuovo studente?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseOne"
+                                                            class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                <strong>Clicca sul + in alto nella sezione blu.</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0 border-bottom">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                                Come posso accedere alle informazioni del mio account?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseTwo"
+                                                            class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                <strong>Clicca sull'icona della campanella.</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0 ">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="panelsStayOpen-collapseThree">
+                                                                Posso usare questa dashboard da mobile?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseThree"
+                                                            class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                <strong>Ovviamente</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="accordion-item border-0 border-bottom">
-                                                <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                                    Come posso accedere alle informazioni del mio account?
-                                                </button>
-                                                </h2>
-                                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <strong>Clicca sull'icona della campanella.</strong>
-                                                </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item border-0 ">
-                                                <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                                    Posso usare questa dashboard da mobile?
-                                                </button>
-                                                </h2>
-                                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <strong>Ovviamente</strong> 
-                                                </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -558,28 +594,32 @@
                                         </div>
                                         <div class="card-body">
                                             <ul class="list-group">
-                                                <li class="list-group-item"><div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                    <label class="form-check-label" for="flexCheckDefault">
-                                                        Kickoff nuove classi
-                                                    </label>
+                                                <li class="list-group-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Kickoff nuove classi
+                                                        </label>
                                                     </div>
                                                 </li>
                                                 <li class="list-group-item">
                                                     <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                    <label class="form-check-label" for="flexCheckDefault">
-                                                        Lezione su Bootstrap 5 in classe #75
-                                                    </label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Lezione su Bootstrap 5 in classe #75
+                                                        </label>
                                                     </div>
                                                 </li>
                                                 <li class="list-group-item">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
                                                         <label class="form-check-label" for="flexCheckDefault">
                                                             Controllare username github studenti
                                                         </label>
-                                                        </div>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -620,17 +660,7 @@
                 </div>
             </div>
         </section>
-
     </main>
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -638,6 +668,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>

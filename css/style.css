@@ -9,7 +9,7 @@
 }
 
 .my_widht_table_50{
-    width: 40%;
+    width: 35%;
 }
 
 .my_close_button{
@@ -114,6 +114,14 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 660px){
+    .my_widht_table_50{
+        width: 30%;
+    }
+}
+
+
 
 @media screen and (max-width: 576px) {
     .my_column_boolean{

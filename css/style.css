@@ -4,9 +4,19 @@
     font-family: "Roboto", sans-serif;
 }
 
-.asd{
+.my_img_avatar{
     width: 30px;
 }
+
+.my_widht_table_50{
+    width: 40%;
+}
+
+.my_close_button{
+    position: absolute;
+    right: 0;
+}
+
 .my_sidebar{
     width: 60px;
     height: calc(100vh - 58.8px);
@@ -21,7 +31,6 @@
 }
 
 .my_header_boolean{
-    background-color: aqua;
     width: 100%;
     height: calc(100vh - 58.8px);
     overflow-y: scroll;
@@ -29,7 +38,22 @@
 
 .my_plane_boolean{
     background-color: #165bba;
+}
 
+.my_state_green{
+    background-color: #198754;
+}
+
+.my_state_yellow{
+    background-color: #ffc107;
+}
+
+.my_plane_red{
+    background-color: #dc3545;
+}
+
+.my_bg_card{
+    background-color: #f7f7f7;
 }
 
 .my_img_booleanbig{
@@ -90,9 +114,19 @@
 @media screen and (max-width: 576px) {
     .my_column_boolean{
         display: flex;
+        flex-direction: column;
     }
 
     .my_column_boolean_none{
         display: none;
     }
+
+    .my_hide_table{
+        display: none;
+    }
+
+    .my_widht_table_50{
+        width: 50%;
+    }
+    
 }

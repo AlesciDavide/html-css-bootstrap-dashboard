@@ -23,6 +23,8 @@
 .my_header_boolean{
     background-color: aqua;
     width: 100%;
+    height: calc(100vh - 58.8px);
+    overflow-y: scroll;
 }
 
 .my_plane_boolean{

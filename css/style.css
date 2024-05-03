@@ -103,6 +103,21 @@
 .my_grow_true{
     flex-grow: 1;
 }
+
+
+.my_hover_aside:hover{
+    background-color: #828f99;
+    padding: 2px;
+}
+
+.my_hover_aside_stats:hover{
+    background-color: #828f99;
+    padding: 10px;
+}
+
+
+
+
 @media screen and (min-width: 992px){
     .my_sidebar{
         width: 120px;

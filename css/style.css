@@ -17,6 +17,10 @@
     right: 0;
 }
 
+.my_border_collapse{
+    border-collapse: inherit;
+}
+
 .my_sidebar{
     width: 60px;
     height: calc(100vh - 58.8px);

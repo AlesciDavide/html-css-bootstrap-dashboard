@@ -21,7 +21,7 @@
 
 .my_sidebar {
     width: 60px;
-    height: calc(100vh - 58.8px);
+    height: calc(100vh - 66px);
     color: white;
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
@@ -34,7 +34,7 @@
 
 .my_header_boolean {
     width: 100%;
-    height: calc(100vh - 58.8px);
+    height: calc(100vh - 66px);
     overflow-y: scroll;
 }
 

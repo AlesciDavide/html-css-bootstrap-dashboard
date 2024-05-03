@@ -4,16 +4,21 @@
     font-family: "Roboto", sans-serif;
 }
 
-
+.asd{
+    width: 30px;
+}
 .my_sidebar{
     width: 60px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 58.8px);
     color: white;
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
     background-color: rgb(5, 30, 52);
 }
 
+.my_pencil_color{
+    color: #6c757d;
+}
 
 .my_header_boolean{
     background-color: aqua;

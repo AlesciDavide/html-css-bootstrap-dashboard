@@ -147,12 +147,12 @@
 
 @media screen and (max-width: 424px) {
     .my_state_green{
-        margin-bottom: 2.2rem;
+        margin-bottom: 3rem;
     }
     .my_state_yellow{
-        margin-bottom: 2.2rem;
+        margin-bottom: 3rem;
     }
     .my_plane_red{
-        margin-bottom: 2.2rem;
+        margin-bottom: 3rem;
     }
 }
